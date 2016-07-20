@@ -14,6 +14,9 @@
 		0E2AE97C1D2D4F390074407A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AE97A1D2D4F390074407A /* LaunchScreen.storyboard */; };
 		0E2AE9871D2D4F390074407A /* GWC_2016Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AE9861D2D4F390074407A /* GWC_2016Tests.swift */; };
 		0E2AE9921D2D4F390074407A /* GWC_2016UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AE9911D2D4F390074407A /* GWC_2016UITests.swift */; };
+		1FC574674203EA6472BD0B92 /* Pods_GWC_2016.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293C10CA3B817B1CE2396637 /* Pods_GWC_2016.framework */; };
+		24BE7DAC2BB344B2E26357B3 /* Pods_GWC_2016Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F503105B256FAA437B35F1 /* Pods_GWC_2016Tests.framework */; };
+		659226B1436779B52C857B8C /* Pods_GWC_2016UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8AD20ADFE8B0DF599E87A3 /* Pods_GWC_2016UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08648D717ED929466558A505 /* Pods-GWC-2016.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWC-2016.release.xcconfig"; path = "Pods/Target Support Files/Pods-GWC-2016/Pods-GWC-2016.release.xcconfig"; sourceTree = "<group>"; };
 		0E2AE96E1D2D4F390074407A /* GWC-2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GWC-2016.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2AE9711D2D4F390074407A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E2AE9731D2D4F390074407A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		0E2AE98D1D2D4F390074407A /* GWC-2016UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GWC-2016UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2AE9911D2D4F390074407A /* GWC_2016UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GWC_2016UITests.swift; sourceTree = "<group>"; };
 		0E2AE9931D2D4F390074407A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C8AD20ADFE8B0DF599E87A3 /* Pods_GWC_2016UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GWC_2016UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF2DEC51F0C5A63FB10DCA7 /* Pods-GWC-2016UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWC-2016UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GWC-2016UITests/Pods-GWC-2016UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		293C10CA3B817B1CE2396637 /* Pods_GWC_2016.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GWC_2016.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F503105B256FAA437B35F1 /* Pods_GWC_2016Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GWC_2016Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55415A990BFDD261B492FC98 /* Pods-GWC-2016Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWC-2016Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GWC-2016Tests/Pods-GWC-2016Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8DF1A943CA0B7628AB97DD2A /* Pods-GWC-2016UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWC-2016UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GWC-2016UITests/Pods-GWC-2016UITests.release.xcconfig"; sourceTree = "<group>"; };
+		BABFB95EB9FC7D668E59D99F /* Pods-GWC-2016.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWC-2016.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GWC-2016/Pods-GWC-2016.debug.xcconfig"; sourceTree = "<group>"; };
+		E2897E78D6E9B74DECB776FC /* Pods-GWC-2016Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWC-2016Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GWC-2016Tests/Pods-GWC-2016Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC574674203EA6472BD0B92 /* Pods_GWC_2016.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24BE7DAC2BB344B2E26357B3 /* Pods_GWC_2016Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659226B1436779B52C857B8C /* Pods_GWC_2016UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				0E2AE9851D2D4F390074407A /* GWC-2016Tests */,
 				0E2AE9901D2D4F390074407A /* GWC-2016UITests */,
 				0E2AE96F1D2D4F390074407A /* Products */,
+				FE19B23696701758D313D838 /* Pods */,
+				D09B8273D31BED79B0319DDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = "GWC-2016UITests";
 			sourceTree = "<group>";
 		};
+		D09B8273D31BED79B0319DDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				293C10CA3B817B1CE2396637 /* Pods_GWC_2016.framework */,
+				32F503105B256FAA437B35F1 /* Pods_GWC_2016Tests.framework */,
+				1C8AD20ADFE8B0DF599E87A3 /* Pods_GWC_2016UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE19B23696701758D313D838 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BABFB95EB9FC7D668E59D99F /* Pods-GWC-2016.debug.xcconfig */,
+				08648D717ED929466558A505 /* Pods-GWC-2016.release.xcconfig */,
+				E2897E78D6E9B74DECB776FC /* Pods-GWC-2016Tests.debug.xcconfig */,
+				55415A990BFDD261B492FC98 /* Pods-GWC-2016Tests.release.xcconfig */,
+				1CF2DEC51F0C5A63FB10DCA7 /* Pods-GWC-2016UITests.debug.xcconfig */,
+				8DF1A943CA0B7628AB97DD2A /* Pods-GWC-2016UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E2AE9961D2D4F390074407A /* Build configuration list for PBXNativeTarget "GWC-2016" */;
 			buildPhases = (
+				BA2AAD08D41D8A7CAC6235DD /* [CP] Check Pods Manifest.lock */,
 				0E2AE96A1D2D4F390074407A /* Sources */,
 				0E2AE96B1D2D4F390074407A /* Frameworks */,
 				0E2AE96C1D2D4F390074407A /* Resources */,
+				7598FCA283F412A767E614F3 /* [CP] Embed Pods Frameworks */,
+				37AC2D198E84F6892AA749C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E2AE9991D2D4F390074407A /* Build configuration list for PBXNativeTarget "GWC-2016Tests" */;
 			buildPhases = (
+				F1AD99936F9407AB1C34850A /* [CP] Check Pods Manifest.lock */,
 				0E2AE97E1D2D4F390074407A /* Sources */,
 				0E2AE97F1D2D4F390074407A /* Frameworks */,
 				0E2AE9801D2D4F390074407A /* Resources */,
+				3BDE5DFC484F882418F09DF6 /* [CP] Embed Pods Frameworks */,
+				E350B1253290E9E36A13A65B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E2AE99C1D2D4F390074407A /* Build configuration list for PBXNativeTarget "GWC-2016UITests" */;
 			buildPhases = (
+				3C3425784F03C1BD87ACF6F3 /* [CP] Check Pods Manifest.lock */,
 				0E2AE9891D2D4F390074407A /* Sources */,
 				0E2AE98A1D2D4F390074407A /* Frameworks */,
 				0E2AE98B1D2D4F390074407A /* Resources */,
+				50F4182D3AFE463FC8E2B98F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37AC2D198E84F6892AA749C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GWC-2016/Pods-GWC-2016-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BDE5DFC484F882418F09DF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GWC-2016Tests/Pods-GWC-2016Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C3425784F03C1BD87ACF6F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50F4182D3AFE463FC8E2B98F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GWC-2016UITests/Pods-GWC-2016UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7598FCA283F412A767E614F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GWC-2016/Pods-GWC-2016-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA2AAD08D41D8A7CAC6235DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E350B1253290E9E36A13A65B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GWC-2016Tests/Pods-GWC-2016Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1AD99936F9407AB1C34850A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E2AE96A1D2D4F390074407A /* Sources */ = {
@@ -397,6 +568,7 @@
 		};
 		0E2AE9971D2D4F390074407A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BABFB95EB9FC7D668E59D99F /* Pods-GWC-2016.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "GWC-2016/Info.plist";
@@ -408,6 +580,7 @@
 		};
 		0E2AE9981D2D4F390074407A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08648D717ED929466558A505 /* Pods-GWC-2016.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "GWC-2016/Info.plist";
@@ -419,6 +592,7 @@
 		};
 		0E2AE99A1D2D4F390074407A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2897E78D6E9B74DECB776FC /* Pods-GWC-2016Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "GWC-2016Tests/Info.plist";
@@ -431,6 +605,7 @@
 		};
 		0E2AE99B1D2D4F390074407A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55415A990BFDD261B492FC98 /* Pods-GWC-2016Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "GWC-2016Tests/Info.plist";
@@ -443,6 +618,7 @@
 		};
 		0E2AE99D1D2D4F390074407A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF2DEC51F0C5A63FB10DCA7 /* Pods-GWC-2016UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "GWC-2016UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -455,6 +631,7 @@
 		};
 		0E2AE99E1D2D4F390074407A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF1A943CA0B7628AB97DD2A /* Pods-GWC-2016UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "GWC-2016UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +661,7 @@
 				0E2AE9981D2D4F390074407A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E2AE9991D2D4F390074407A /* Build configuration list for PBXNativeTarget "GWC-2016Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +670,7 @@
 				0E2AE99B1D2D4F390074407A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E2AE99C1D2D4F390074407A /* Build configuration list for PBXNativeTarget "GWC-2016UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +679,7 @@
 				0E2AE99E1D2D4F390074407A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
