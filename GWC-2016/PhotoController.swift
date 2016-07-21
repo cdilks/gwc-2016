@@ -28,6 +28,7 @@ class PhotoController: UIViewController, UIImagePickerControllerDelegate, UINavi
         presentViewController(picker, animated: true, completion: nil)
     }
     
+    
     /*
         func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
             var imageData   = UIImagePNGRepresentation((info[UIImagePickerControllerOriginalImage] as? UIImage)!); dismissViewControllerAnimated(true, completion: nil)
