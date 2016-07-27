@@ -16,9 +16,9 @@
 		0E2AE9921D2D4F390074407A /* GWC_2016UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AE9911D2D4F390074407A /* GWC_2016UITests.swift */; };
 		1FC574674203EA6472BD0B92 /* Pods_GWC_2016.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293C10CA3B817B1CE2396637 /* Pods_GWC_2016.framework */; };
 		24BE7DAC2BB344B2E26357B3 /* Pods_GWC_2016Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F503105B256FAA437B35F1 /* Pods_GWC_2016Tests.framework */; };
-		659226B1436779B52C857B8C /* Pods_GWC_2016UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8AD20ADFE8B0DF599E87A3 /* Pods_GWC_2016UITests.framework */; };
 		3F480C1F1D40115100CC8F9D /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F480C1E1D40115100CC8F9D /* PhotoController.swift */; };
 		3F480C211D4011AB00CC8F9D /* EmojiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F480C201D4011AB00CC8F9D /* EmojiController.swift */; };
+		659226B1436779B52C857B8C /* Pods_GWC_2016UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8AD20ADFE8B0DF599E87A3 /* Pods_GWC_2016UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,18 +53,16 @@
 		0E2AE98D1D2D4F390074407A /* GWC-2016UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GWC-2016UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2AE9911D2D4F390074407A /* GWC_2016UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GWC_2016UITests.swift; sourceTree = "<group>"; };
 		0E2AE9931D2D4F390074407A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-
 		1C8AD20ADFE8B0DF599E87A3 /* Pods_GWC_2016UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GWC_2016UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF2DEC51F0C5A63FB10DCA7 /* Pods-GWC-2016UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWC-2016UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GWC-2016UITests/Pods-GWC-2016UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		293C10CA3B817B1CE2396637 /* Pods_GWC_2016.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GWC_2016.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F503105B256FAA437B35F1 /* Pods_GWC_2016Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GWC_2016Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F480C1E1D40115100CC8F9D /* PhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
+		3F480C201D4011AB00CC8F9D /* EmojiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiController.swift; sourceTree = "<group>"; };
 		55415A990BFDD261B492FC98 /* Pods-GWC-2016Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWC-2016Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GWC-2016Tests/Pods-GWC-2016Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8DF1A943CA0B7628AB97DD2A /* Pods-GWC-2016UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWC-2016UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GWC-2016UITests/Pods-GWC-2016UITests.release.xcconfig"; sourceTree = "<group>"; };
 		BABFB95EB9FC7D668E59D99F /* Pods-GWC-2016.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWC-2016.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GWC-2016/Pods-GWC-2016.debug.xcconfig"; sourceTree = "<group>"; };
 		E2897E78D6E9B74DECB776FC /* Pods-GWC-2016Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWC-2016Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GWC-2016Tests/Pods-GWC-2016Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3F480C1E1D40115100CC8F9D /* PhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
-		3F480C201D4011AB00CC8F9D /* EmojiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiController.swift; sourceTree = "<group>"; };
-
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,7 +247,7 @@
 				TargetAttributes = {
 					0E2AE96D1D2D4F390074407A = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 22MN5H8Q5R;
+						DevelopmentTeam = 6PLH59A3ZR;
 					};
 					0E2AE9811D2D4F390074407A = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -586,7 +584,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "GWC-2016/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dailyburn.GWC-2016";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emotion.GWC-2016";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -601,7 +599,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "GWC-2016/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dailyburn.GWC-2016";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emotion.GWC-2016";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
