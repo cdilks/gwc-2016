@@ -13,7 +13,6 @@ class PhotoController: UIViewController, UIImagePickerControllerDelegate, UINavi
     @IBOutlet weak var cameraAccess: UIButton!
     @IBOutlet weak var photoLibrary: UIButton!
     
-    
     @IBAction func cameraAccessAction(sender: UIButton) {
         let picker = UIImagePickerController()
         picker.delegate = self
