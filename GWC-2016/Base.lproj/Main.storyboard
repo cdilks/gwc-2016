@@ -389,23 +389,30 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CEV-ag-zTI">
-                                <rect key="frame" x="76" y="446" width="233" height="72"/>
-                                <state key="normal" title="Next"/>
-                                <connections>
-                                    <action selector="buttonTouched:" destination="xiT-83-LV9" eventType="touchUpInside" id="qbF-86-5Jq"/>
-                                </connections>
+                                <rect key="frame" x="54" y="428" width="272" height="72"/>
+                                <size key="titleShadowOffset" width="4" height="4"/>
+                                <state key="normal" title="next"/>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Aax-Mo-69Z">
+                                <rect key="frame" x="20" y="139" width="281" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="DjI-EB-k6Z"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="done" destination="Aax-Mo-69Z" id="ze3-XI-FBl"/>
                         <outlet property="next" destination="CEV-ag-zTI" id="eXf-Vv-n43"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ytn-Bg-wFt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1446" y="1135"/>
+            <point key="canvasLocation" x="1446" y="1255"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ns3-JV-D7e">

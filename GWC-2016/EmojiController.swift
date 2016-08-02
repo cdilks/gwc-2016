@@ -9,6 +9,8 @@
 import UIKit
 
 var mood: String = ""
+var emotion: String = ""
+var color: UIColor = UIColor.whiteColor()
 
 class EmojiController: UIViewController {
     
@@ -18,33 +20,78 @@ class EmojiController: UIViewController {
     @IBOutlet weak var neutralButton: UIButton!
     @IBOutlet weak var madButton: UIButton!
     @IBOutlet weak var surprisedButton: UIButton!
+    var happy: [String] = ["happy", "happiness", "joy", "YAY"]
+    var sad: [String] = ["sad", "lonely", "cheer up", "crying"]
+    var fear: [String] = ["fear", "scared", "ahh", "fear"]
+    var mad: [String] = ["mad", "angry", "grr", "frustrated"]
+    var neutral: [String] = ["bored", "boring", "yawn", "bored"]
+    var surprised: [String] = ["surprise", "whoa", "surprised", "speechless"]
     
     func getMood() -> String{
         return mood
     }
     
-    func happyButtonClicked(sender: UIButton){
-        mood = "happy"
+    func getColor() -> UIColor{
+        return color
     }
     
+    func getEmotion() -> String{
+        return emotion
+    }
+    
+    func processEmotion (theEmotion: String){
+        let random = Int(arc4random_uniform(4));
+        switch(theEmotion){
+        case "happy":
+            emotion = "happy"
+            mood = happy[random]
+            //color = UIColor.yellowColor()
+        case "sad":
+            emotion = "sad"
+            mood = sad[random]
+            //color = UIColor.cyanColor()
+        case "mad":
+            emotion = "mad"
+            mood = mad[random]
+            //color = UIColor.redColor()
+        case "surprised":
+            emotion = "surprised"
+            mood = surprised[random]
+            //color = UIColor.orangeColor()
+        case "fear":
+            emotion = "scared"
+            mood = fear[random]
+            //color = UIColor.lightGrayColor()
+        case "neutral":
+            emotion = "neutral"
+            mood = neutral[random]
+            //color = UIColor.whiteColor()
+        default:
+            print("Invalid emotion")
+        }
+    }
+    
+    func happyButtonClicked(sender: UIButton){
+        self.processEmotion("happy")
+    }
     func sadButtonClicked(sender: UIButton){
-        mood = "sad"
+        self.processEmotion("sad")
     }
     
     func madButtonClicked(sender: UIButton){
-        mood = "mad"
+        self.processEmotion("mad")
     }
     
     func fearButtonClicked(sender: UIButton){
-        mood = "fear"
+        self.processEmotion("fear")
     }
     
     func neutralButtonClicked(sender: UIButton){
-        mood = "bored"
+        self.processEmotion("neutral")
     }
     
     func surprisedButtonClicked(sender: UIButton){
-        mood = "surprised"
+        self.processEmotion("surprised")
     }
     
     override func viewDidLoad() {

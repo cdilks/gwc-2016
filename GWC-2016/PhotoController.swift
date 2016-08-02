@@ -27,13 +27,11 @@ class PhotoController: UIViewController, UIImagePickerControllerDelegate, UINavi
         presentViewController(picker, animated: true, completion: nil)
     }
     
-    
     /*
         func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
             var imageData   = UIImagePNGRepresentation((info[UIImagePickerControllerOriginalImage] as? UIImage)!); dismissViewControllerAnimated(true, completion: nil)
         }
-        
- */
+     */
         override func viewDidLoad() {
             super.viewDidLoad()
             // Do any additional setup after loading the view, typically from a nib.
