@@ -14,6 +14,9 @@
 		0E2AE97C1D2D4F390074407A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AE97A1D2D4F390074407A /* LaunchScreen.storyboard */; };
 		0E2AE9871D2D4F390074407A /* GWC_2016Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AE9861D2D4F390074407A /* GWC_2016Tests.swift */; };
 		0E2AE9921D2D4F390074407A /* GWC_2016UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AE9911D2D4F390074407A /* GWC_2016UITests.swift */; };
+		3F480C1F1D40115100CC8F9D /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F480C1E1D40115100CC8F9D /* PhotoController.swift */; };
+		3F480C211D4011AB00CC8F9D /* EmojiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F480C201D4011AB00CC8F9D /* EmojiController.swift */; };
+		3F9C113D1D5112C900523D6E /* firstChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C113C1D5112C900523D6E /* firstChoice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		0E2AE98D1D2D4F390074407A /* GWC-2016UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GWC-2016UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2AE9911D2D4F390074407A /* GWC_2016UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GWC_2016UITests.swift; sourceTree = "<group>"; };
 		0E2AE9931D2D4F390074407A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F480C1E1D40115100CC8F9D /* PhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
+		3F480C201D4011AB00CC8F9D /* EmojiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiController.swift; sourceTree = "<group>"; };
+		3F9C113C1D5112C900523D6E /* firstChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstChoice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 			children = (
 				0E2AE9711D2D4F390074407A /* AppDelegate.swift */,
 				0E2AE9731D2D4F390074407A /* ViewController.swift */,
+				3F480C1E1D40115100CC8F9D /* PhotoController.swift */,
+				3F480C201D4011AB00CC8F9D /* EmojiController.swift */,
 				0E2AE9751D2D4F390074407A /* Main.storyboard */,
 				0E2AE9781D2D4F390074407A /* Assets.xcassets */,
 				0E2AE97A1D2D4F390074407A /* LaunchScreen.storyboard */,
 				0E2AE97D1D2D4F390074407A /* Info.plist */,
+				3F9C113C1D5112C900523D6E /* firstChoice.swift */,
 			);
 			path = "GWC-2016";
 			sourceTree = "<group>";
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					0E2AE96D1D2D4F390074407A = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 22MN5H8Q5R;
 					};
 					0E2AE9811D2D4F390074407A = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -256,6 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F480C211D4011AB00CC8F9D /* EmojiController.swift in Sources */,
+				3F9C113D1D5112C900523D6E /* firstChoice.swift in Sources */,
+				3F480C1F1D40115100CC8F9D /* PhotoController.swift in Sources */,
 				0E2AE9741D2D4F390074407A /* ViewController.swift in Sources */,
 				0E2AE9721D2D4F390074407A /* AppDelegate.swift in Sources */,
 			);
@@ -399,10 +412,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "GWC-2016/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dailyburn.GWC-2016";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +426,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "GWC-2016/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dailyburn.GWC-2016";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +503,7 @@
 				0E2AE9981D2D4F390074407A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E2AE9991D2D4F390074407A /* Build configuration list for PBXNativeTarget "GWC-2016Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +512,7 @@
 				0E2AE99B1D2D4F390074407A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E2AE99C1D2D4F390074407A /* Build configuration list for PBXNativeTarget "GWC-2016UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +521,7 @@
 				0E2AE99E1D2D4F390074407A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
