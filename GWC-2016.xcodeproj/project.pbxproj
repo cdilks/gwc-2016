@@ -16,6 +16,7 @@
 		0E2AE9921D2D4F390074407A /* GWC_2016UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AE9911D2D4F390074407A /* GWC_2016UITests.swift */; };
 		3F480C1F1D40115100CC8F9D /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F480C1E1D40115100CC8F9D /* PhotoController.swift */; };
 		3F480C211D4011AB00CC8F9D /* EmojiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F480C201D4011AB00CC8F9D /* EmojiController.swift */; };
+		3F9C113D1D5112C900523D6E /* firstChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C113C1D5112C900523D6E /* firstChoice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0E2AE9931D2D4F390074407A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F480C1E1D40115100CC8F9D /* PhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
 		3F480C201D4011AB00CC8F9D /* EmojiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiController.swift; sourceTree = "<group>"; };
+		3F9C113C1D5112C900523D6E /* firstChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstChoice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				0E2AE9781D2D4F390074407A /* Assets.xcassets */,
 				0E2AE97A1D2D4F390074407A /* LaunchScreen.storyboard */,
 				0E2AE97D1D2D4F390074407A /* Info.plist */,
+				3F9C113C1D5112C900523D6E /* firstChoice.swift */,
 			);
 			path = "GWC-2016";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F480C211D4011AB00CC8F9D /* EmojiController.swift in Sources */,
+				3F9C113D1D5112C900523D6E /* firstChoice.swift in Sources */,
 				3F480C1F1D40115100CC8F9D /* PhotoController.swift in Sources */,
 				0E2AE9741D2D4F390074407A /* ViewController.swift in Sources */,
 				0E2AE9721D2D4F390074407A /* AppDelegate.swift in Sources */,
