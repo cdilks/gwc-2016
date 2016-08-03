@@ -10,7 +10,7 @@ import UIKit
 
 var mood: String = ""
 var emotion: String = ""
-var color: UIColor = UIColor.whiteColor()
+var color: UIColor = UIColor.init(red: 100.0/255.0, green: 160.0/255.0, blue: 255.0/255.0, alpha: 1.0)
 
 class EmojiController: UIViewController {
     

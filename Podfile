@@ -7,7 +7,6 @@ target 'GWC-2016' do
 
   # Pods for GWC-2016
   pod 'Alamofire', '~> 3.0'
-  pod 'AlamofireImage', '~> 2.0'
   pod 'FLAnimatedImage'
   
   target 'GWC-2016Tests' do
