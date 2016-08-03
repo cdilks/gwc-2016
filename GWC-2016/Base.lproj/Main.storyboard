@@ -3,8 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -61,22 +59,22 @@
                                     <segue destination="6q8-CS-kyg" kind="push" id="vMB-SK-GY4"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" editable="NO" text="Welcome to Emotiscope!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5pE-Lv-zuU">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" editable="NO" text="welcome to emotiscope!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5pE-Lv-zuU">
                                 <rect key="frame" x="8" y="216" width="309" height="52"/>
                                 <color key="backgroundColor" red="0.49803921568627452" green="0.62745098039215685" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="Cur-S9-WRm"/>
                                 </constraints>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="26"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="26"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emotiscope" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5p-Pe-2kZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="emotiscope" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5p-Pe-2kZ">
                                 <rect key="frame" x="8" y="84" width="304" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="u1H-mf-wCQ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="52"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="52"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -315,40 +313,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbc-Dz-RDr">
-                                <rect key="frame" x="27" y="454" width="266" height="75"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbc-Dz-RDr">
+                                <rect key="frame" x="197" y="437" width="72" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="2VN-TM-4kL"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="266" id="Aj2-vR-0MT"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="75" id="COy-O1-9XN"/>
                                     <constraint firstAttribute="width" constant="266" id="YdM-dk-V8J"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="27"/>
-                                <state key="normal" title="Use Photo Library">
+                                <state key="normal" title="Use Photo Library" image="fileicon">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="photoLibraryAction:" destination="kHI-VG-0xP" eventType="touchUpInside" id="w0s-xU-ptl"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do You Want To..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36R-dn-wfm">
-                                <rect key="frame" x="56" y="112" width="208" height="49"/>
-                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="28"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8T-aR-yky">
-                                <rect key="frame" x="27" y="265" width="266" height="75"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="odp-3A-oM3">
+                                <rect key="frame" x="46" y="92" width="240" height="326"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLo-vZ-Qbr">
+                                <rect key="frame" x="137" y="515" width="60" height="33"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitPhoto:" destination="kHI-VG-0xP" eventType="touchUpInside" id="Zza-yx-f2O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8T-aR-yky">
+                                <rect key="frame" x="46" y="429" width="85" height="77"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="75" id="6u4-Ul-KN9"/>
                                     <constraint firstAttribute="height" constant="75" id="Vpm-Vh-k9y"/>
                                     <constraint firstAttribute="width" constant="266" id="fxc-tT-XZT"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="266" id="nUQ-T1-lDb"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="27"/>
-                                <state key="normal" title="Take a Photo">
+                                <state key="normal" title="Take a Photo" image="cameraicon">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -359,29 +361,27 @@
                         <color key="backgroundColor" red="0.49803921568627452" green="0.62745098039215685" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="lbc-Dz-RDr" firstAttribute="centerX" secondItem="T9N-0h-WHp" secondAttribute="centerX" id="3H0-QF-XrN"/>
-                            <constraint firstItem="36R-dn-wfm" firstAttribute="top" secondItem="9Gm-ra-m9A" secondAttribute="bottom" constant="48" id="5Ks-Ht-SU5"/>
                             <constraint firstItem="b8T-aR-yky" firstAttribute="centerX" secondItem="T9N-0h-WHp" secondAttribute="centerX" id="IjL-lt-HW2"/>
-                            <constraint firstItem="36R-dn-wfm" firstAttribute="centerX" secondItem="T9N-0h-WHp" secondAttribute="centerX" id="SlH-Za-Yfu"/>
-                            <constraint firstItem="b8T-aR-yky" firstAttribute="top" secondItem="36R-dn-wfm" secondAttribute="bottom" constant="104" id="d0n-wn-3dy"/>
                             <constraint firstItem="lbc-Dz-RDr" firstAttribute="top" secondItem="b8T-aR-yky" secondAttribute="bottom" constant="114" id="g3E-de-rfb"/>
                             <constraint firstItem="b8T-aR-yky" firstAttribute="top" secondItem="9Gm-ra-m9A" secondAttribute="bottom" constant="201" id="lB1-Ft-Pde"/>
-                            <constraint firstItem="36R-dn-wfm" firstAttribute="leading" secondItem="T9N-0h-WHp" secondAttribute="leadingMargin" constant="40" id="oIb-Vv-Int"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hZq-gl-EjB"/>
                     <connections>
                         <outlet property="cameraAccess" destination="b8T-aR-yky" id="XX0-d1-j1X"/>
+                        <outlet property="imgView" destination="odp-3A-oM3" id="mTl-6Y-UzD"/>
                         <outlet property="photoLibrary" destination="lbc-Dz-RDr" id="iLd-jL-toc"/>
+                        <outlet property="submitButton" destination="TLo-vZ-Qbr" id="NUN-N3-VOv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jUf-tO-yXz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1446.4000000000001" y="345.06"/>
+            <point key="canvasLocation" x="1446" y="345"/>
         </scene>
         <!--Last Page-->
         <scene sceneID="9Sc-Bx-10e">
             <objects>
-                <viewController id="xiT-83-LV9" customClass="LastPage" customModule="GWC_2016" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="lastpage" id="xiT-83-LV9" customClass="LastPage" customModule="GWC_2016" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8vL-H8-jEB"/>
                         <viewControllerLayoutGuide type="bottom" id="2C3-ao-Aqw"/>
@@ -390,7 +390,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alignment="center" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="Cxc-aC-6Gk">
                                 <rect key="frame" x="-63" y="424" width="220" height="60"/>
                                 <subviews>
@@ -433,7 +432,6 @@
                     <connections>
                         <outlet property="back" destination="lRR-eo-gF3" id="NT1-WO-XiC"/>
                         <outlet property="done" destination="X6g-uD-6JW" id="0GR-7R-Ywb"/>
-
                         <outlet property="next" destination="CEV-ag-zTI" id="eXf-Vv-n43"/>
                     </connections>
                 </viewController>
@@ -480,13 +478,15 @@
     </scenes>
     <resources>
         <image name="angry:frustrated emoji" width="220" height="230"/>
+        <image name="cameraicon" width="256" height="256"/>
         <image name="fear emoji" width="120" height="120"/>
+        <image name="fileicon" width="256" height="256"/>
         <image name="happy emoji" width="120" height="120"/>
         <image name="neutral emoji" width="640" height="640"/>
         <image name="sad emoji" width="530" height="530"/>
         <image name="surprise emoji" width="160" height="160"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="IlL-vU-C44"/>
+        <segue reference="tUf-Z3-0ab"/>
     </inferredMetricsTieBreakers>
 </document>

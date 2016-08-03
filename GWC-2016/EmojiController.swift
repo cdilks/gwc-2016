@@ -11,6 +11,46 @@ import UIKit
 var mood: String = ""
 var emotion: String = ""
 var color: UIColor = UIColor.init(red: 100.0/255.0, green: 160.0/255.0, blue: 255.0/255.0, alpha: 1.0)
+var happy: [String] = ["happy", "happiness", "joy", "YAY"]
+var sad: [String] = ["sad", "lonely", "cheer up", "crying"]
+var fear: [String] = ["fear", "scared", "ahh", "fear"]
+var mad: [String] = ["mad", "angry", "grr", "frustrated"]
+var neutral: [String] = ["bored", "boring", "yawn", "bored"]
+var surprised: [String] = ["surprise", "whoa", "surprised", "speechless"]
+
+
+func processEmotion (theEmotion: String){
+    let random = Int(arc4random_uniform(4));
+    switch(theEmotion){
+    case "happiness":
+        emotion = "happy"
+        mood = happy[random]
+    //color = UIColor.yellowColor()
+    case "sadness":
+        emotion = "sad"
+        mood = sad[random]
+    //color = UIColor.cyanColor()
+    case "anger":
+        emotion = "mad"
+        mood = mad[random]
+    //color = UIColor.redColor()
+    case "surprise":
+        emotion = "surprised"
+        mood = surprised[random]
+    //color = UIColor.orangeColor()
+    case "fear":
+        emotion = "scared"
+        mood = fear[random]
+    //color = UIColor.lightGrayColor()
+    case "neutral":
+        emotion = "neutral"
+        mood = neutral[random]
+    //color = UIColor.whiteColor()
+    default:
+        print("Invalid emotion")
+    }
+}
+
 
 class EmojiController: UIViewController {
     
@@ -20,12 +60,6 @@ class EmojiController: UIViewController {
     @IBOutlet weak var neutralButton: UIButton!
     @IBOutlet weak var madButton: UIButton!
     @IBOutlet weak var surprisedButton: UIButton!
-    var happy: [String] = ["happy", "happiness", "joy", "YAY"]
-    var sad: [String] = ["sad", "lonely", "cheer up", "crying"]
-    var fear: [String] = ["fear", "scared", "ahh", "fear"]
-    var mad: [String] = ["mad", "angry", "grr", "frustrated"]
-    var neutral: [String] = ["bored", "boring", "yawn", "bored"]
-    var surprised: [String] = ["surprise", "whoa", "surprised", "speechless"]
     
     func getMood() -> String{
         return mood
@@ -39,59 +73,27 @@ class EmojiController: UIViewController {
         return emotion
     }
     
-    func processEmotion (theEmotion: String){
-        let random = Int(arc4random_uniform(4));
-        switch(theEmotion){
-        case "happy":
-            emotion = "happy"
-            mood = happy[random]
-            //color = UIColor.yellowColor()
-        case "sad":
-            emotion = "sad"
-            mood = sad[random]
-            //color = UIColor.cyanColor()
-        case "mad":
-            emotion = "mad"
-            mood = mad[random]
-            //color = UIColor.redColor()
-        case "surprised":
-            emotion = "surprised"
-            mood = surprised[random]
-            //color = UIColor.orangeColor()
-        case "fear":
-            emotion = "scared"
-            mood = fear[random]
-            //color = UIColor.lightGrayColor()
-        case "neutral":
-            emotion = "neutral"
-            mood = neutral[random]
-            //color = UIColor.whiteColor()
-        default:
-            print("Invalid emotion")
-        }
-    }
-    
     func happyButtonClicked(sender: UIButton){
-        self.processEmotion("happy")
+        processEmotion("happiness")
     }
     func sadButtonClicked(sender: UIButton){
-        self.processEmotion("sad")
+        processEmotion("sadness")
     }
     
     func madButtonClicked(sender: UIButton){
-        self.processEmotion("mad")
+        processEmotion("anger")
     }
     
     func fearButtonClicked(sender: UIButton){
-        self.processEmotion("fear")
+        processEmotion("fear")
     }
     
     func neutralButtonClicked(sender: UIButton){
-        self.processEmotion("neutral")
+        processEmotion("neutral")
     }
     
     func surprisedButtonClicked(sender: UIButton){
-        self.processEmotion("surprised")
+        processEmotion("surprise")
     }
     
     override func viewDidLoad() {

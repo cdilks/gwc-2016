@@ -62,7 +62,7 @@ class LastPage: UIViewController {
                 .responseJSON{response in
                     if let JSON = response.result.value {
                         self.gifs.removeAll()
-                        for _ in 1...4 {
+                        for _ in 1...60 {
                             var added: DarwinBoolean = false
                             while added == false {
                                 let random = Int(arc4random_uniform(100));
@@ -110,7 +110,7 @@ class LastPage: UIViewController {
         self.gifView.constraints
         self.view.addSubview(gifView)
         print(emoji.getMood())
-        self.getGIF(emoji.getMood())
+        self.getGIF(mood)
         //self.getGIF("happiness")
     }
 
