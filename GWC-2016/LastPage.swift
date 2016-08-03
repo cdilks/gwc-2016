@@ -14,11 +14,12 @@ class LastPage: UIViewController {
     @IBOutlet weak var back: UIButton!
     @IBOutlet weak var next: UIButton!
     @IBOutlet weak var done: UILabel!
+
     var gifView: FLAnimatedImageView = FLAnimatedImageView()
     var gifs: [String] = []
     var index: Int = 0
     let emoji: EmojiController = EmojiController()
-    
+
      func nextButtonTouched(sender: UIButton) {
         if (index + 1 < gifs.count) {
             index = index + 1
@@ -29,7 +30,7 @@ class LastPage: UIViewController {
             self.done.text = "You've reached all the GIFs!"
         }
     }
-    
+
     func backButtonTouched(sender:UIButton) {
         if (index - 1 >= 0){
             index = index - 1
@@ -39,14 +40,14 @@ class LastPage: UIViewController {
             self.done.text = "You're at the beginning!"
         }
     }
-    
+
     func getImage(index: Int) {
         self.done.text = "You are " + emoji.getEmotion()
         let link = self.gifs[index]
         let imageGIF: FLAnimatedImage = FLAnimatedImage.init(animatedGIFData: NSData(contentsOfURL: NSURL(string: link)!)!)
         self.gifView.animatedImage = imageGIF
     }
-    
+
     func getGIF(emotion: String) {
         self.done.text = "You are " + emoji.getEmotion()
         let parameters = [
@@ -78,7 +79,7 @@ class LastPage: UIViewController {
                     self.getImage(0)
                 }
     }
-    
+
     func initNextButton(){
         next.addTarget(self, action: #selector(LastPage.nextButtonTouched(_:)), forControlEvents: UIControlEvents.TouchUpInside)
         next.backgroundColor = UIColor.init(red: 170.0/255.0, green: 170.0/255.0, blue: 170.0/255.0, alpha: 1.0)
@@ -86,9 +87,9 @@ class LastPage: UIViewController {
         next.titleLabel!.font = UIFont(name: "Heiti SC", size: 20)
         next.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
     }
-    
+
     func initBackButton(){
-        
+
         back.addTarget(self, action: #selector(LastPage.backButtonTouched(_:)), forControlEvents: UIControlEvents.TouchUpInside)
         //next.backgroundColor = UIColor.lightGrayColor()
         back.backgroundColor = UIColor.init(red: 170.0/255.0, green: 170.0/255.0, blue: 170.0/255.0, alpha: 1.0)
@@ -97,7 +98,7 @@ class LastPage: UIViewController {
         back.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
 
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         //view.backgroundColor = emoji.getColor()
@@ -112,7 +113,7 @@ class LastPage: UIViewController {
         self.getGIF(emoji.getMood())
         //self.getGIF("happiness")
     }
-        
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
