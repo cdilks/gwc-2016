@@ -16,6 +16,7 @@ import FLAnimatedImage
 class LastPage: UIViewController {
     @IBOutlet weak var done: UITextView!
     @IBOutlet weak var next: UIButton!
+    @IBOutlet weak var back: UIButton!
     var gifView: FLAnimatedImageView = FLAnimatedImageView()
     var gifs: [String] = []
     var index: Int = 1
@@ -31,6 +32,8 @@ class LastPage: UIViewController {
             self.done.text = "You've reached all the GIFs!"
         }
     }
+    
+    //func backButtonTouched(sender: )
     
     func getImage(index: Int) {
         let link = self.gifs[index]
